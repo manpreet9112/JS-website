@@ -134,7 +134,7 @@ $(document).ready(function(){
       <p class="text"> We are manufactured of Embroidery Sewing Machine spare parts like Gear Hook Shaft(8886),Steel Gear 8834,Hook Shaft Steel Bush En-8 and complete Lapping Set and Fiber Gear and Auto parts and Three Wheeler Parts(Ape Alfa,Piaggio Cross Rod,Front & Real Axle) ,Cross Gear Shaft,GC Auto,Alpha Auto and CNC turning  job work of all parts.</P>
   </div><!------ ----About us end ------------>
   
-  <div id="gallary" class="col-md-12 col-xs-6">
+  <div id="gallary">
   <h2 class="h2data">Gallary</h2>
    <img src="images/SG8.jpg" class="img-rounded" alt="Steel Gear 8834 " width="200" height="200"> 
    <img src="images/GHS8.jpg" class="img-rounded" alt=" Gear Hook Shaft 8886" width="300" height="200"> 
