@@ -196,15 +196,15 @@ $(document).ready(function(){
     <div id="social">
      <div class="container">
        <div class="col-sm-4">
-         <div class="glyphicon-ring glyphicon-red"><san class="glyphicon  glyphicon-map-marker glyphicon-bordered"></span></div>        
+         <div class="glyphicon-ring glyphicon-red"><span class="glyphicon  glyphicon-map-marker glyphicon-bordered"></span></div>        
       <p class="social">House No. 164, Street No.7L,<br> Isher Nagar, Backside G.N.E College, Ludhiana. </p>
   
        </div>
-       <div class="col-sm-4"><div class="glyphicon-ring glyphicon-red"><san class="glyphicon glyphicon-envelope glyphicon-bordered"></span></div>        
+       <div class="col-sm-4"><div class="glyphicon-ring glyphicon-red"><span class="glyphicon glyphicon-envelope glyphicon-bordered"></span></div>        
       <p class="social">jsenggworks1991@gmail.com</p>
       </div>
        <div class="col-sm-4">
-         <div class="glyphicon-ring glyphicon-red"><san class="glyphicon fa fa-phone glyphicon-bordered"></span></div>        
+         <div class="glyphicon-ring glyphicon-red"><span class="glyphicon fa fa-phone glyphicon-bordered"></span></div>        
       <p class="social">Jagjeet Singh</br> +91 9781312128</p>
        </div>
    </div>
