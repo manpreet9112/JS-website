@@ -23,11 +23,18 @@
   <link rel="stylesheet" type="text/css" href="css/design.css">
   </head>
   <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
         <a class="navbar-brand" href="#">JS</a>
       </div>
+  <div class="collapse navbar-collapse" id="menu">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About Us</a></li>
@@ -35,8 +42,10 @@
          <li><a href="#gallary">Gallary</a></li>
          <li><a href="#contactus">Contact Us</a></li>
       </ul>
-    </div>
+  </div>
+ </div>
   </nav>
+
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
