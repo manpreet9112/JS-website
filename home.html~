@@ -66,6 +66,7 @@ $(document).ready(function(){
 
 </script>
 
+
   <div id="slider" class="carousel slide" data-ride="carousel" >
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -115,24 +116,42 @@ $(document).ready(function(){
   </div>
 
 
-  <section id="product">
+<div class="container text-center">
+  <div class="row" 
+  <div id="product" class="col-sm-12 col-md-12 col-md-12">
   <h2 class="h2text">Product List</h2>
-  <div class="floating-box">
+  </div>
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-3">
   <!--<img src="images/SG8.jpg" class="img-circle" alt="Steel Gear 8834 " width="140" height="140"> <br>-->
   <h4>Gear Hook Shaft 8886 </h4>
   It is made up of shaft and gear. We manufacture two types of Gear Hook Shaft such as small and large size. </div>
-  <div class="floating-box"><h4>Hook Shaft Steel Bush </h4>Item of Embroidery machine. We sell this item individully and  combine with Lapping Set. </div>
-  <div class="floating-box"><h4>Steel Gear 8834 </h4>It is a spare part of Emboidery machine. It contain 2 holes over it, so that it can get into machine. </div>
-  <div class="floating-box"><h4>Lapping set </h4>
+  <div class="col-md-4"><h4>Hook Shaft Steel Bush </h4>Item of Embroidery machine. We sell this item individully and  combine with Lapping Set. </div>
+  <div class="col-md-4"><h4>Steel Gear 8834 </h4>It is a spare part of Emboidery machine. It contain 2 holes over it, so that it can get into machine. </div>
+  <div class="col-md-4"><h4>Lapping set </h4>
   This item (Lapping set) is used in sewing machine. We use best raw material to manufacture this item. Price of this is around Rs. 25. </div>
-  <div class="floating-box"><h4>Fiber Gear</h4>Lapping Set and Hook Shaft.This is made up of fiber and we sell this item individually and including with Lapping Set and Hook Shaft.</div>
-  <div class="floating-box"><h4>Tip Holder</h4>It is (Tip Holder) a Valve Seat Cutting Tools that we manufacture using CNC machines. Lapping Set and Hook Shaft.This is made up of fiber.</div>
-  </section>
-  <div id="about"><h2 class="h2data">About Us</h2>
-      <P class="text">Established in the year 1991 at Ludhiana(Punjab,India).We <b>"J.S Engg.Works",</b> are highly engaged in <b>manufacturing</b> and <b>supplying</b> outstanding range of <b>Embroidery Sewing Machine spare part</b>.Firstly our industry was doing the labour job work of lath machine.At the same time we are manufacturing the Embroidery machine spare part.But in the past time production was very low.
+  <div class="col-md-4"><h4>Fiber Gear</h4>Lapping Set and Hook Shaft.This is made up of fiber and we sell this item individually and including with Lapping Set and Hook Shaft.</div>
+  <div class="col-md-4"><h4>Tip Holder</h4>It is (Tip Holder) a Valve Seat Cutting Tools that we manufacture using CNC machines. Lapping Set and Hook Shaft.This is made up of fiber.</div>
+</div>
+  </div>
+</div>
+
+
+ <div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+   <h2 class="h2data">About Us</h2>
+  </div>
+</div>
+<div class="row">
+  <div id="about" class="col-md-12 col-sm-12 col-xs-12" >
+      <p>Established in the year 1991 at Ludhiana(Punjab,India).We <b>"J.S Engg.Works",</b> are highly engaged in <b>manufacturing</b> and <b>supplying</b> outstanding range of <b>Embroidery Sewing Machine spare part</b>.Firstly our industry was doing the labour job work of lath machine.At the same time we are manufacturing the Embroidery machine spare part.But in the past time production was very low.
         In short span of time,we have established ourselves as trustworthy organization in the entire industry.The feature such as Quality, Dimensions, Accuracy are the hallmarks of our products.These products are manufactured using the best raw material as per pre-defined standards.</p>
-      <p class="text"> We are manufactured of Embroidery Sewing Machine spare parts like Gear Hook Shaft(8886),Steel Gear 8834,Hook Shaft Steel Bush En-8 and complete Lapping Set and Fiber Gear and Auto parts and Three Wheeler Parts(Ape Alfa,Piaggio Cross Rod,Front & Real Axle) ,Cross Gear Shaft,GC Auto,Alpha Auto and CNC turning  job work of all parts.</P>
-  </div><!------ ----About us end ------------>
+      <p class="text"> We are manufactured of Embroidery Sewing Machine spare parts like Gear Hook Shaft(8886),Steel Gear 8834,Hook Shaft Steel Bush En-8 and complete Lapping Set and Fiber Gear and Auto parts and Three Wheeler Parts(Ape Alfa,Piaggio Cross Rod,Front & Real Axle) ,Cross Gear Shaft,GC Auto,Alpha Auto and CNC turning  job work of all parts.</p>
+  </div>
+</div>
+
+
+<!------ ----About us end ------------>
   
   <div id="gallary">
   <h2 class="h2data">Gallary</h2>
@@ -183,7 +202,7 @@ $(document).ready(function(){
     var myOptions={
      center: new google.maps.LatLng(30.900965, 75.8572758),
      zoom: 10,
-     mapTypeId: google.maps.MapTypeId.HYBRID
+     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   var map=new google.maps.Map(document.getElementById("map"),myOptions);
   }
@@ -196,15 +215,15 @@ $(document).ready(function(){
     <div id="social">
      <div class="container">
        <div class="col-sm-4">
-         <div class="glyphicon-ring glyphicon-red"><span class="glyphicon  glyphicon-map-marker glyphicon-bordered"></span></div>        
+         <div class="glyphicon-ring glyphicon-red"><san class="glyphicon  glyphicon-map-marker glyphicon-bordered"></span></div>        
       <p class="social">House No. 164, Street No.7L,<br> Isher Nagar, Backside G.N.E College, Ludhiana. </p>
   
        </div>
-       <div class="col-sm-4"><div class="glyphicon-ring glyphicon-red"><span class="glyphicon glyphicon-envelope glyphicon-bordered"></span></div>        
+       <div class="col-sm-4"><div class="glyphicon-ring glyphicon-red"><san class="glyphicon glyphicon-envelope glyphicon-bordered"></span></div>        
       <p class="social">jsenggworks1991@gmail.com</p>
       </div>
        <div class="col-sm-4">
-         <div class="glyphicon-ring glyphicon-red"><span class="glyphicon fa fa-phone glyphicon-bordered"></span></div>        
+         <div class="glyphicon-ring glyphicon-red"><san class="glyphicon fa fa-phone glyphicon-bordered"></span></div>        
       <p class="social">Jagjeet Singh</br> +91 9781312128</p>
        </div>
    </div>

@@ -6,13 +6,6 @@ margin:0 auto;
 float:left;
 }
 
-.productlist{  
-float:left;
-padding:10px 50px;
-display:block;
-width:400px;
-}
-
 #menu{background-color:black;
 position:fixed;
 padding:0;
@@ -202,6 +195,8 @@ footer #googleplus:hover{
 background-color:red;
 }
 
+
+.container{padding:10px 0;}
 
 
  
