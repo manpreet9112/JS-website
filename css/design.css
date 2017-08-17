@@ -69,13 +69,6 @@ padding:10px 150px;
 text-align:center;
 }
 
-.floating-box{width:300px;
-display:inline-block;
-padding:4px 10px;
-}
-
-.floating-box img:hover{border:10px solid green; 
-}
 
 h4{color:#2d2d2d;}
 
@@ -109,7 +102,7 @@ background:url(../images/head.jpg) no-repeat center;
 background-size:100% 100%;
 text-align:center;
 color:white;
-padding:10px auto;
+padding:10px 20px;
 padding-bottom:20px;
 }
 
