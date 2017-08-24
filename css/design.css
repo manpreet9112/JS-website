@@ -1,5 +1,6 @@
 body {
-margin:0 auto;
+margin:0;
+padding:0;
 }
 
 #logo{background-color:black;
@@ -182,7 +183,8 @@ background-color:red;
 }
 
 
-.container{padding:10px 0;}
+/*.container{padding:10px 0;
+}*/
 
  .navbar{margin:0;
 padding-left:10px;
