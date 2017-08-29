@@ -131,6 +131,7 @@ $(document).ready(function(){
   <h2 class="h2text">Product List</h2>
   </div>
 </div>
+
 <div class="row">
   <div class="col-md-4 col-sm-6">
   <!--<img src="images/SG8.jpg" class="img-circle" alt="Steel Gear 8834 " width="140" height="140"> <br>-->

@@ -74,7 +74,8 @@ h4:hover{color:#fd142f;}
 .floating-box h3 hr{color:red;}
 
 h5{color:white;
-text-transform:uppercase;
+text-transform:none;
+font-weight:bold;
 }
 
 .h2text{
@@ -129,10 +130,6 @@ background-size:100% 100%;
 text-align:center;
 padding:10px 0;
 margin:60px 0;
-}
-
-h5{
-font-weight:bold;
 }
 
 #social div span.glyphicon {
