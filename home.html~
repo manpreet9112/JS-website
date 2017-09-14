@@ -24,7 +24,7 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -178,6 +178,7 @@ $(document).ready(function(){
 </div><!------ ----Gallary end ------------>
 
 
+
 <div id="contactus">
     <h2 class="h2data">Get in <span class="content-header">touch with us</span></h2>
     <div class="container">
@@ -205,7 +206,7 @@ $(document).ready(function(){
   </div>
   
   <div class="col-md-6" > <h5>Find us on Map</h5></div>		
-  <div id="map" class="col-md-6" style="width:520px;height:280px; background-color:yellow;  margin-right:40px; float:right;"> </div>
+  <div id="map" class="col-md-6" style="width:520px;height:280px; background-color:yellow;  margin-right:30px; float:right;"></div>
   <script>
   function myMap(){
     var myOptions={
@@ -233,7 +234,7 @@ $(document).ready(function(){
   
        </div>
       <div class="col-sm-4"><div class="glyphicon-ring glyphicon-red"><span class="glyphicon glyphicon-envelope glyphicon-bordered green"></span></div>   
-     <h5 class="g">email</h5>       
+     <h5 class="email">email</h5>       
       <p class="social">jsenggworks1991@gmail.com</p>
       </div>
        <div class="col-sm-4">

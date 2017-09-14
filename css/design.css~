@@ -3,9 +3,9 @@ margin:0;
 padding:0;
 }
 
-#logo{background-color:black;
-float:left;
-}
+#slider::after{
+content:""
+background-color:black;}
 
 /*#menu{background-color:black;
 position:fixed;
@@ -19,7 +19,7 @@ color:#2d2d2d;
 
 h4:hover{color:#fd142f;}
 
-.logo{float:left;}
+
 
 /*#menu ul{padding:0px;
 margin:0;
@@ -71,10 +71,10 @@ h4{color:#2d2d2d;}
 
 h4:hover{color:#fd142f;}
 
-.floating-box h3 hr{color:red;}
+
 
 h5{color:white;
-text-transform:none;
+text-transform:uppercase;
 font-weight:bold;
 }
 
@@ -99,13 +99,14 @@ font-size:36px;
 }
 
 #gallary{/*background-color:#f62525;*/
-background:url(../images/head.jpg) no-repeat center;
+background: url(../images/head.jpg) no-repeat center;
 background-size:100% 100%;
 text-align:center;
 color:white;
 padding:10px 20px;
 padding-bottom:20px;
 }
+
 
 #gallary img{margin:5px;
 width:200px;
@@ -115,8 +116,8 @@ height:200px;
 #contactus{/*background:url(../images/map.jpg) no-repeat center;*/
 background-color:#2d2d2d;
 color:white;
-padding:10px 0px;
-background-size:100% 100%;
+padding:10px 20px;
+
 }
 
 .content-header{
@@ -143,7 +144,9 @@ margin:60px 0;
     text-align: center;
     font-size:30px;
     width: 70px !important;
+   
 }
+
 
 .green{background-color: #2E8B57;}
 
@@ -202,11 +205,15 @@ footer #googleplus:hover{
 background-color:red;
 }
 
-
 /*.container{padding:10px 0;
-}*/
+} problem was sueto this*/ 
 
- .navbar{margin:0;
-padding-left:10px;
+ 
+.navbar {
+   margin:0;
+   padding-left:10px;
+   background-color: rgba(0,0,0,0.5);
 }
+
+
 
